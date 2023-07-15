@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Freight Sans Pro';
+    src: local('Freight Sans Pro Light Regular'), local('Freight-Sans-Pro-Light-Regular'),
+        url('FreightSansProLight-Regular.woff2') format('woff2'),
+        url('FreightSansProLight-Regular.woff') format('woff'),
+        url('FreightSansProLight-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
