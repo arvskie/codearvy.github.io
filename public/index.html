@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeArvs</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+</head>
+<body id="Body" class="bg-white">
+  <!-- bg-stone-100 -->
+  <header class="bg-white flex justify-center w-full fixed top-0 shadow">
+    <nav class="bg-white md:w-11/12 w-full p-5 md:flex md:items-center md:justify-between shadow md:shadow-none ">
+      <div class=" flex justify-between items-center">
+        <span class="ml-[70px] md:ml-0 text-3xl font-[Poppins] cursor-pointer">John Arvy S. Lacno</span>
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu" id="navMenu-toggle"></ion-icon>
+        </span>
+      </div>
+      <ul id="nav-ul" class="border-b-4 border-gray-600 md:border-b-0 md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full md:w-auto left-0 md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <li class="mx-4 my-6 md:my-0 flex items-center ">
+          <label class="relative inline-flex items-center cursor-pointer"  >
+          <input type="checkbox" value="" class="sr-only peer" name="light" id="darkMode-toggle">
+          <div class=" w-11 h-6 bg-gray-200 rounded-full peer dark:bg-stone-300 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-white after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-stone-600 peer-checked:bg-gray-700"></div>
+          <span class="ml-3 text-sm text-gray-900 dark:text-gray-500 hidden">Dark Mode</span>
+        </label>
+      </li>
+        <li class="mx-4 my-6 md:my-0 hover:text-neutral-500"><a href="#home" class="text-xl relative bottomLine-Hover duration-200">Home</a></li>
+        <li class="mx-4 my-6 md:my-0 hover:text-neutral-500"><a href="#projects" class="text-xl relative bottomLine-Hover duration-200">Projects</a></li>
+        <li class="mx-4 my-6 md:my-0 hover:text-neutral-500"><a href="#about" class="text-xl relative bottomLine-Hover duration-200">About</a></li>
+        <li class="mx-4 my-6 md:my-0 hover:text-neutral-500"><a href="#contact" class="text-xl relative bottomLine-Hover duration-200">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="Home" class="h-[650px] mt-[80px]">
+    
+    <div class="intro-container">
+      <img class="w-[200px]" src="../res/img/image3.jpg" alt="card">
+      <!-- <div class="intro-desc-container">
+        <h1 class="text-3xl font-bold underline">Introduction</h1> -->
+        <!-- <p>Hi! I am John Arvy S. Lacno, a graduate of Bachelor of Science in Information Technology at Davao del Norte State College. I am currently pursuing my career to become a Software and Web Developer.
+        </p>
+        <p>
+          I have a beginner knowledge in developing websites using HTML,CSS,JavaScript. As of now, I am focusing on the back-end developing in Web development using PHP and MySQL.
+        </p>
+        <p>
+          I made this Web portfolio to document and show my projects and progress in my career in becoming a Software and Web Developer. I hope we can collab in the near future.
+        </p> -->
+      <!-- </div> -->
+    </div>
+  </section>
+
+
+  <marquee class="text-xl absolute right-0 left-0 bottom-20 ">This site is under construction.</marquee>
+
+  
+
+  <!-- <footer class=" ">
+    <p class="">
+      © 2023 | Designed By: John Arvy S. Lacno
+    </p>
+  </footer> -->
+<script src="../res/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Bottom line for nav */
+nav ul li a::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #7e7c7c;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+/* Display bottom line when hover */
+nav ul li a:hover::after{
+  width: 100%;
+}
+/* Change rext color to white when hover */
+nav ul li a:hover{
+  color: #7e7c7c;
+}
+
+
+
+/* 
+footer{
+  text-align: center;
+} */

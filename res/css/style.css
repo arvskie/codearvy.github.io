@@ -12,12 +12,23 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Freight Sans Pro';
 }
+html {
+  height: 100%;
+  outline: 1px solid blue; 
+}
+body {
+  min-height: 100%;
+  outline: 1px solid blue; 
+}
+
 html,body{
   /* outline: 1px solid blue; */
-  font-family: 'Freight Sans Pro';
   background-color: #F1F6F9;
 }
+
 
 /* div.banner{
   width: 100%;
@@ -32,11 +43,14 @@ marquee{
   z-index: 999;
   font-size: 1.2rem;
 }
+/* header{
 
+} */
 nav.nav-wrapper{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
   background-color: #F1F6F9;
   /* outline: 1px solid red; */
 }
@@ -151,5 +165,11 @@ div.intro-desc-container p{
 
 
 footer{
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
   text-align: center;
+  background-color: #7e7c7c;
+  
 }

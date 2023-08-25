@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ /* Bottom line for nav
+.bottomLine-Hover::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #7e7c7c;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+Display bottom line when hover 
+.bottomLine-Hover:hover::after{
+  width: 100%;
+}
+
+
+footer{
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+         background-color: #7e7c7c; 
+  
+}   */
