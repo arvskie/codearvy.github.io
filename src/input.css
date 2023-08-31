@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 /* Bottom line for nav */
 nav ul li a::after{
   content: '';
